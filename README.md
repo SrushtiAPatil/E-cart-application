@@ -85,7 +85,6 @@ The application uses browser `localStorage` to save:
 
 - Products and categories are loaded from the static file `src/data.js`.
 - Login and OTP are demo implementations.
-- OTP is always `123456`.
 - Passwords are currently stored as plain text.
 - Cart, wishlist, and orders are stored only in the browser.
 - Coupons, stock, and prices are not verified by a server.
