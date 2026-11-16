@@ -18,7 +18,6 @@ export function Navbar() {
   const nav = useNavigate();
   const loc = useLocation();
 
-  // close the mobile menu whenever the route changes
   useEffect(() => { setOpen(false); }, [loc.pathname, loc.search]);
 
   const submit = (e) => {

@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "brand": "Aurelia Jewels",
+    "currency": "INR",
+    "version": "1.0",
+    "note": "Mock API for frontend interview. Serve with: npx json-server jewellery-api.json --port 4000"
+  },
+  "categories": [
+    { "id": 1, "name": "Rings", "slug": "rings", "image": "https://picsum.photos/seed/rings/400/400", "productCount": 4 },
+    { "id": 2, "name": "Necklaces", "slug": "necklaces", "image": "https://picsum.photos/seed/necklaces/400/400", "productCount": 3 },
+    { "id": 3, "name": "Earrings", "slug": "earrings", "image": "https://picsum.photos/seed/earrings/400/400", "productCount": 3 },
+    { "id": 4, "name": "Bracelets", "slug": "bracelets", "image": "https://picsum.photos/seed/bracelets/400/400", "productCount": 2 }
+  ],
+  "banners": [
+    { "id": 1, "title": "Timeless Elegance", "subtitle": "New Bridal Collection 2026", "cta": "Shop Now", "link": "/products?category=rings", "image": "https://picsum.photos/seed/banner1/1440/600" },
+    { "id": 2, "title": "Festive Gold Edit", "subtitle": "Flat 20% off on making charges", "cta": "Explore", "link": "/products?category=necklaces", "image": "https://picsum.photos/seed/banner2/1440/600" }
+  ],
+  "products": [
+    {
+      "id": 101, "name": "Solitaire Diamond Ring", "slug": "solitaire-diamond-ring", "categoryId": 1,
+      "price": 48500, "mrp": 54000, "discountPercent": 10, "metal": "18K White Gold", "purity": "750",
+      "weightGrams": 3.2, "stone": "Diamond 0.5 ct", "rating": 4.8, "reviewCount": 124,
+      "inStock": true, "stockQty": 8, "isNew": true, "isBestseller": true,
+      "sizes": ["10", "12", "14", "16"],
+      "images": ["https://picsum.photos/seed/ring101a/600/600", "https://picsum.photos/seed/ring101b/600/600", "https://picsum.photos/seed/ring101c/600/600"],
+      "description": "A classic round-cut solitaire set in a four-prong 18K white gold band. Certified diamond with a lifetime exchange policy."
+    },
+    {
+      "id": 102, "name": "Rose Gold Infinity Band", "slug": "rose-gold-infinity-band", "categoryId": 1,
+      "price": 18900, "mrp": 18900, "discountPercent": 0, "metal": "14K Rose Gold", "purity": "585",
+      "weightGrams": 2.1, "stone": "None", "rating": 4.5, "reviewCount": 67,
+      "inStock": true, "stockQty": 15, "isNew": false, "isBestseller": true,
+      "sizes": ["8", "10", "12", "14"],
+      "images": ["https://picsum.photos/seed/ring102a/600/600", "https://picsum.photos/seed/ring102b/600/600"],
+      "description": "Minimal infinity design in polished rose gold, ideal for everyday wear and stacking."
+    },
+    {
+      "id": 103, "name": "Emerald Halo Ring", "slug": "emerald-halo-ring", "categoryId": 1,
+      "price": 62000, "mrp": 68900, "discountPercent": 10, "metal": "22K Yellow Gold", "purity": "916",
+      "weightGrams": 4.5, "stone": "Emerald 1 ct + Diamonds", "rating": 4.9, "reviewCount": 41,
+      "inStock": false, "stockQty": 0, "isNew": true, "isBestseller": false,
+      "sizes": ["12", "14", "16"],
+      "images": ["https://picsum.photos/seed/ring103a/600/600", "https://picsum.photos/seed/ring103b/600/600"],
+      "description": "A vivid oval emerald surrounded by a halo of brilliant-cut diamonds in 22K gold."
+    },
+    {
+      "id": 104, "name": "Classic Gold Band", "slug": "classic-gold-band", "categoryId": 1,
+      "price": 12500, "mrp": 13200, "discountPercent": 5, "metal": "22K Yellow Gold", "purity": "916",
+      "weightGrams": 2.6, "stone": "None", "rating": 4.3, "reviewCount": 210,
+      "inStock": true, "stockQty": 30, "isNew": false, "isBestseller": false,
+      "sizes": ["10", "12", "14", "16", "18"],
+      "images": ["https://picsum.photos/seed/ring104a/600/600"],
+      "description": "Timeless plain gold band with a comfort-fit inner finish."
+    },
+    {
+      "id": 201, "name": "Pearl Drop Necklace", "slug": "pearl-drop-necklace", "categoryId": 2,
+      "price": 24500, "mrp": 27000, "discountPercent": 9, "metal": "18K Yellow Gold", "purity": "750",
+      "weightGrams": 5.8, "stone": "South Sea Pearl", "rating": 4.7, "reviewCount": 88,
+      "inStock": true, "stockQty": 6, "isNew": true, "isBestseller": false,
+      "sizes": ["16 inch", "18 inch"],
+      "images": ["https://picsum.photos/seed/neck201a/600/600", "https://picsum.photos/seed/neck201b/600/600"],
+      "description": "A single lustrous South Sea pearl suspended from a delicate 18K gold chain."
+    },
+    {
+      "id": 202, "name": "Temple Gold Haram", "slug": "temple-gold-haram", "categoryId": 2,
+      "price": 245000, "mrp": 259000, "discountPercent": 5, "metal": "22K Yellow Gold", "purity": "916",
+      "weightGrams": 48.0, "stone": "Ruby & Emerald", "rating": 4.9, "reviewCount": 19,
+      "inStock": true, "stockQty": 2, "isNew": false, "isBestseller": true,
+      "sizes": ["24 inch"],
+      "images": ["https://picsum.photos/seed/neck202a/600/600", "https://picsum.photos/seed/neck202b/600/600"],
+      "description": "Handcrafted temple-style long haram featuring Lakshmi motifs, rubies and emeralds."
+    },
+    {
+      "id": 203, "name": "Diamond Tennis Necklace", "slug": "diamond-tennis-necklace", "categoryId": 2,
+      "price": 189000, "mrp": 210000, "discountPercent": 10, "metal": "18K White Gold", "purity": "750",
+      "weightGrams": 14.2, "stone": "Diamonds 5 ct total", "rating": 4.8, "reviewCount": 23,
+      "inStock": true, "stockQty": 3, "isNew": false, "isBestseller": false,
+      "sizes": ["16 inch"],
+      "images": ["https://picsum.photos/seed/neck203a/600/600"],
+      "description": "A continuous line of brilliant-cut diamonds in a secure box-clasp setting."
+    },
+    {
+      "id": 301, "name": "Gold Jhumka Earrings", "slug": "gold-jhumka-earrings", "categoryId": 3,
+      "price": 32000, "mrp": 34500, "discountPercent": 7, "metal": "22K Yellow Gold", "purity": "916",
+      "weightGrams": 7.4, "stone": "None", "rating": 4.6, "reviewCount": 156,
+      "inStock": true, "stockQty": 12, "isNew": false, "isBestseller": true,
+      "sizes": [],
+      "images": ["https://picsum.photos/seed/ear301a/600/600", "https://picsum.photos/seed/ear301b/600/600"],
+      "description": "Traditional bell-shaped jhumkas with intricate filigree work."
+    },
+    {
+      "id": 302, "name": "Diamond Stud Earrings", "slug": "diamond-stud-earrings", "categoryId": 3,
+      "price": 39900, "mrp": 42000, "discountPercent": 5, "metal": "18K White Gold", "purity": "750",
+      "weightGrams": 1.8, "stone": "Diamond 0.6 ct pair", "rating": 4.9, "reviewCount": 301,
+      "inStock": true, "stockQty": 20, "isNew": false, "isBestseller": true,
+      "sizes": [],
+      "images": ["https://picsum.photos/seed/ear302a/600/600"],
+      "description": "Everyday diamond studs with screw-back safety."
+    },
+    {
+      "id": 303, "name": "Sapphire Drop Earrings", "slug": "sapphire-drop-earrings", "categoryId": 3,
+      "price": 28700, "mrp": 28700, "discountPercent": 0, "metal": "18K Rose Gold", "purity": "750",
+      "weightGrams": 3.1, "stone": "Blue Sapphire", "rating": 4.4, "reviewCount": 37,
+      "inStock": true, "stockQty": 5, "isNew": true, "isBestseller": false,
+      "sizes": [],
+      "images": ["https://picsum.photos/seed/ear303a/600/600"],
+      "description": "Pear-shaped sapphires dangling from rose gold hooks."
+    },
+    {
+      "id": 401, "name": "Charm Link Bracelet", "slug": "charm-link-bracelet", "categoryId": 4,
+      "price": 21500, "mrp": 23000, "discountPercent": 6, "metal": "18K Yellow Gold", "purity": "750",
+      "weightGrams": 6.0, "stone": "None", "rating": 4.2, "reviewCount": 45,
+      "inStock": true, "stockQty": 9, "isNew": false, "isBestseller": false,
+      "sizes": ["6.5 inch", "7 inch"],
+      "images": ["https://picsum.photos/seed/brac401a/600/600"],
+      "description": "Chunky link bracelet with three detachable charms."
+    },
+    {
+      "id": 402, "name": "Diamond Bangle", "slug": "diamond-bangle", "categoryId": 4,
+      "price": 78000, "mrp": 84000, "discountPercent": 7, "metal": "18K Yellow Gold", "purity": "750",
+      "weightGrams": 12.5, "stone": "Diamonds 1.2 ct", "rating": 4.7, "reviewCount": 58,
+      "inStock": true, "stockQty": 4, "isNew": true, "isBestseller": false,
+      "sizes": ["2.4", "2.6", "2.8"],
+      "images": ["https://picsum.photos/seed/brac402a/600/600"],
+      "description": "Sleek openable bangle with a row of pavé diamonds."
+    }
+  ],
+  "reviews": [
+    { "id": 1, "productId": 101, "user": "Priya S.", "rating": 5, "comment": "Absolutely stunning, the diamond sparkles beautifully.", "date": "2026-10-02" },
+    { "id": 2, "productId": 101, "user": "Rahul M.", "rating": 4, "comment": "Great quality, delivery took 6 days.", "date": "2026-09-18" },
+    { "id": 3, "productId": 301, "user": "Sneha K.", "rating": 5, "comment": "Perfect for weddings. Lightweight and elegant.", "date": "2026-10-21" },
+    { "id": 4, "productId": 201, "user": "Ananya P.", "rating": 5, "comment": "The pearl has a lovely lustre.", "date": "2026-11-01" }
+  ],
+  "cart": [
+    { "id": 1, "productId": 101, "size": "12", "quantity": 1 },
+    { "id": 2, "productId": 301, "size": null, "quantity": 2 }
+  ],
+  "wishlist": [
+    { "id": 1, "productId": 203 },
+    { "id": 2, "productId": 402 }
+  ],
+  "users": [
+    { "id": 1, "name": "Test User", "email": "test@aurelia.com", "password": "test1234", "phone": "9876543210" }
+  ],
+  "orders": [],
+  "coupons": [
+    { "id": 1, "code": "FIRST10", "type": "percent", "value": 10, "minOrder": 10000, "active": true },
+    { "id": 2, "code": "FLAT2000", "type": "flat", "value": 2000, "minOrder": 25000, "active": true },
+    { "id": 3, "code": "EXPIRED50", "type": "percent", "value": 50, "minOrder": 0, "active": false }
+  ],
+  "settings": {
+    "freeShippingAbove": 25000,
+    "shippingCharge": 499,
+    "gstPercent": 3
+  }
+}

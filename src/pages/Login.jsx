@@ -4,7 +4,7 @@ import Art from '../components/Art.jsx';
 import { useStore } from '../store.jsx';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
-// Demo account (no backend)
+
 const DEMO = { email: 'demo@aurelia.com', password: 'Aurelia@123' };
 
 export default function Login() {
@@ -114,7 +114,7 @@ export default function Login() {
                 <a href="#!" className="text-gold" onClick={(e) => { e.preventDefault(); toast('Password reset link sent if the email exists'); }}>Forgot password?</a>
               </div>
               <button className="btn-aur w-100" type="submit">Login</button>
-              <div className="small text-muted mt-2">Demo: demo@aurelia.com / Aurelia@123</div>
+              <div className="small text-muted mt-2">Demo: test@aurelia.com / test1234</div>
               <div className="or">OR</div>
               <button type="button" className="btn-aur-o w-100" onClick={() => { setMode('otp'); setErr(''); }}>Continue with OTP</button>
             </form>
