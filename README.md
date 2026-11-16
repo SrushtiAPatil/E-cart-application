@@ -81,8 +81,9 @@ The application uses browser `localStorage` to save:
 
 ## Current Limitations / Pending Work
 
-**Backend and API integration is not implemented yet.**
+**Backend  is not implemented yet.**
 
+- API integration is  implemented
 - Products and categories are loaded from the static file `src/data.js`.
 - Login and OTP are demo implementations.
 - Passwords are currently stored as plain text.
